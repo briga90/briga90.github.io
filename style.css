@@ -1,0 +1,86 @@
+header {
+  font-family: "Josefin Sans", sans-serif;
+  background: black;
+  width: 100%;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+}
+a {
+  color: white;
+  text-decoration: none;
+  margin: 30px;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  margin-top: 110px;
+}
+.name {
+  background-image: url("http://stayathome-syllabus.greenfox.academy/week01/assets/first-website-header.png");
+  width: 40%;
+  height: 600px;
+  background-position: center;
+  position: relative;
+}
+h1 {
+  position: absolute;
+  bottom: 240px;
+  left: 50px;
+  font-family: "Abril Fatface", cursive;
+  font-size: 40px;
+  color: #222; /* grey */
+  letter-spacing: 2px;
+}
+span {
+  font-size: 100px;
+  font-family: "Abril Fatface", cursive;
+  color: #222; /* grey */
+  letter-spacing: 4px;
+  position: absolute;
+  bottom: 20px;
+  left: 50px;
+}
+.text {
+  margin: 10px 20px;
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 2;
+  font-size: 25px;
+  width: 60%;
+}
+div {
+  margin: 20px 0;
+  display: flex;
+  width: 100%;
+}
+.quote {
+  width: 40%;
+}
+blockquote {
+  background: #444;
+  color: white;
+  font-family: "Abril Fatface", cursive;
+  font-size: 70px;
+  margin: 0px;
+  padding: 50px;
+  position: relative;
+}
+blockquote::before {
+  content: "“";
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 150px;
+  line-height: 0.8;
+  color: white;
+}
+body {
+  width: 100%;
+}
+
+body {
+  margin: 0px;
+}
